@@ -20,11 +20,11 @@ class HarryPotter extends Component {
         this.setState({ harry: data.Search, Loading: false, Error: false });
       } else {
         console.log("error");
-        this.setState({ isLoading: false, isError: true });
+        this.setState({ Loading: false, Error: true });
       }
     } catch (error) {
       console.log(error);
-      this.setState({ isLoading: false, isError: true });
+      this.setState({ Loading: false, Error: true });
     }
   };
 
