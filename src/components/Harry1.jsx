@@ -4,7 +4,7 @@ import { Container, Row } from "react-bootstrap";
 
 const Harry1 = ({ harry }) => (
   <Container>
-    <h3 className="text-white">Harry Potter</h3>
+    <h3 className="text-white text-start mb-2">Harry Potter</h3>
     <Row className="justify-content-center">
       {harry.slice(0, 6).map((item, key) => {
         // console.log(item);

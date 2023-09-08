@@ -34,7 +34,7 @@
 
 .imgCar {
   height: 350px;
-  object-fit: contain;
+  object-fit: cover;
   background-color: black;
   padding-bottom: 50px;
 }

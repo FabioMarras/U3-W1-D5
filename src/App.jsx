@@ -5,8 +5,8 @@ import HarryPotter from "./components/HarryPotter";
 import TheLordOfRings from "./components/TheLordOfRings";
 import JohnWick from "./components/JohnWick";
 import Header from "./components/Header";
-import Profile from "./components/Profile";
 import Footer from "./components/footer";
+import Profile from "./components/Profile";
 import Setting from "./components/Setting";
 
 function App() {

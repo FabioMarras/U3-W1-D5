@@ -4,7 +4,7 @@ import JohnWick2 from "./JohnWick2";
 
 const JohnWick1 = ({ wick }) => (
   <Container>
-    <h3 className="text-white">John Wick</h3>
+    <h3 className="text-white text-start mb-2">John Wick</h3>
     <Row className="justify-content-center">
       {wick.slice(0, 6).map((item, key) => {
         // console.log(item);
